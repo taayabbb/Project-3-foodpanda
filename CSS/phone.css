@@ -1,0 +1,148 @@
+@media screen and (max-width:1050px){
+    #navbar
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #navbar ul
+    {
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+/* home  */
+
+#home
+{
+    height: 390px;
+}
+
+/* about  */
+
+    #about-container
+    {
+        flex-direction: column;
+        margin: 0px 30px;
+    }
+    #about-container h1
+    {
+        padding-right: 0px;
+        font-size: 2rem;
+        /* padding-top: 0px;
+        padding-bottom:0px ; */
+    }
+    #box1
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #box1 img
+    {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    #box1-text
+    {
+        padding: 0px 0px;
+    }
+    #box1-text h1
+    {
+        font-size: 2rem;
+    }
+    #box2
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #box2 img
+    {
+        width: 100%;
+    }
+    #box2-text h1
+    {
+        font-size: 2rem;
+    }
+    #box2-text
+    {
+        padding-right: 0px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+
+    }
+    #box3
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #box3 img
+    {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    #box3-text
+    {
+        padding: 0px;
+    }
+    #box3-text h1
+    {
+        font-size: 2rem;
+    }
+
+    /* Services  */
+    #services-container h1
+    {
+        font-size: 2rem;
+    }
+    #services-container
+    {
+        margin:0px 30px;
+    }
+    #services
+    {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 30px;
+    }
+    #first
+    {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    #second
+    {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    #third
+    {
+        width: 100%;
+
+    }
+    /* contact  */
+    #contact-container
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 30px;
+    }
+    #contact-text
+    {
+        align-items: center;
+        justify-content: center;
+        margin-top:100px;
+    }
+    #contact-text h1
+    {
+        font-size: 2rem;
+    }
+    #form
+    {
+        width: 80%;
+    }
+}
